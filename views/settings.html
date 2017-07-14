@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Settings | As of Today</title>
+
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- fb meta tags -->
+	<meta property="og:url"           content="http://asoftoday.me" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="As of Today" />
+	<meta property="og:image"         content="http://asoftoday.me/images/templogo19.jpg" />
+	<meta property="og:description"   content="A free app to keep track of the stats for your life after soda or cigarettes." />
+	<meta property="fb:app_id"        content="312283985879917">
+	
+	<!-- libaries -->
+	<link rel="stylesheet" type="text/css" href="../lib/semantic/semantic.min.css">
+	<script src="../lib/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="../lib/semantic/semantic.min.js"></script>
+	<script src="../lib/sweetalert/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../lib/sweetalert/sweetalert.css">
+	<script src="../lib/jQuery-ui/jquery-ui.min.js"></script>
+	<script src="../lib/modernizr/modernizr-custom.js"></script>
+
+	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../lib/jQuery-ui/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="../public/style.css">
+	<link rel="stylesheet" type="text/css" href="../public/settings.css">
+
+	<!-- Mobile device homescreen logo -->
+	<link rel="apple-touch-icon" href="../favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="../favicon.ico"/>
+	<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+
+</head>
+
+<body>
+
+	<div class="main">
+
+ 		<h1>Stats Settings</h1>
+
+ 		<form class="ui form" id="form">
+
+ 			<div class="field">
+				<label>Pick your vice:</label>
+				<select class="ui fluid dropdown">
+					<option value="soda">Soda</option>
+					<option value="cigarettes">Cigarettes</option>
+				</select>
+			</div>
+
+			<div class="field">
+			    <label>Brand:</label>
+			    <input type="text" name="brand" placeholder="Coke" value="">
+			</div>
+
+			<div class="field">
+			    <label>Date you quit:</label>
+			    <input type="date" name="quitDate" id="datepicker">
+			</div>
+
+			<div class="two fields">
+
+				<div class="field">
+				    <label id="units">Cans per day:</label>
+				    <input type="number" name="numPerDay" min="1" placeholder="3">
+				</div>
+
+				<div class="field">
+				    <label id="quantity">Cost per 12 pack: ($)</label>
+				    <input type="number" name="cost" step="0.01" min="0.01" placeholder="5.00">
+				</div>
+
+			</div>
+
+			<div class="field soda-exclusive">
+				<a class="ui massive orange button" id="caffeineContent" href="https://www.caffeineinformer.com/the-caffeine-database" target="_blank">Check sugar / caffeine content</a>
+			</div>
+
+			<div class="two fields soda-exclusive">
+
+				<div class="field">
+				    <label>Caffeine per can: (mg)</label>
+				    <input type="number" name="caffeine" placeholder="34">
+				</div>
+
+				<div class="field">
+				    <label>Sugar per can: (g)</label>
+				    <input type="number" name="sugar" placeholder="39">
+				</div>
+			</div>	
+
+			<div class="field cig-exclusive">
+			    <label>Minutes to smoke one cigarette:</label>
+			    <input type="number" name="time" placeholder="6">
+			</div>
+
+			<a class="ui massive green button" href="../index.html" onclick="localStorage.seenLanding = 'true'">See your stats <i class="large arrow right icon"></i></a>
+		</form>
+
+	</div>
+
+<script type="text/javascript" src="../js/settings.js"></script>
+
+</body>
+</html>

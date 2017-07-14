@@ -1,0 +1,44 @@
+html {
+	font-size: 8px;
+}
+
+body {
+	background: #3498db;
+	
+}
+
+.ui.form .field>label {
+	color: white;
+	text-align: left;
+}
+
+a, a:hover, a:visited {
+	color: white;
+}
+
+select.ui.dropdown {
+	height: 100%;
+}
+
+h1 {
+	font-size: 6rem;
+}
+
+.field {
+	font-size: 2.0rem;
+}
+
+.cig-exclusive {
+	display: none;
+}
+
+.main {
+	margin-bottom: 20px;
+}
+
+@media (min-width: 650px) {
+	
+	html {
+		font-size: 10px;
+	}
+}

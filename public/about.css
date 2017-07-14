@@ -1,0 +1,76 @@
+html {
+	font-size: 8px;
+}
+
+body {
+	background-color: #f39c12
+}
+
+.rotate .caret {
+    transform:rotate(-180deg);
+    transition:all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.rotate {
+	text-decoration: underline;
+}
+
+.main {
+	max-width: 800px;
+}
+
+.ui.raised.segment {
+	padding: 25px;
+}
+
+.ui.raised.segment a, .ui.raised.segment span {
+	font-weight: bold;
+}
+
+.main a {
+	color: #4d4d4d;
+}
+
+.main li a, .main li a i, .main li a i:hover, .main p a {
+	color: #4183c4;
+}
+
+h3 {
+	font-size: 2.6rem;
+}
+
+p, li {
+	text-align: left;
+	margin: 0;
+	padding: 5px 0px;
+	width:100%;
+	max-width: 100%;
+}
+
+.buttons {
+	padding-left: 15px;
+}
+
+.form {
+	text-align: center;
+}
+
+.field {
+	font-size: 2.0rem;
+}
+
+.main footer a {
+	color: white;
+}
+
+@media (min-width: 650px) {
+	
+	html {
+		font-size: 10px;
+	}
+
+	p, li {
+		padding-left: 15px;
+	}
+}

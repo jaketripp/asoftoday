@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>About | As of Today</title>
+
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  	<!-- fb meta tags -->
+	<meta property="og:url"           content="http://asoftoday.me" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="As of Today" />
+	<meta property="og:image"         content="http://asoftoday.me/images/templogo19.jpg" />
+	<meta property="og:description"   content="A free app to keep track of the stats for your life after soda or cigarettes." />
+	<meta property="fb:app_id"        content="312283985879917">
+
+	<!-- libaries -->
+	<link rel="stylesheet" type="text/css" href="../lib/semantic/semantic.min.css">
+	<script src="../lib/jQuery/jquery-3.2.1.min.js"></script>
+	<script src="../lib/semantic/semantic.min.js"></script>
+	<script src="../lib/sweetalert/sweetalert.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../lib/sweetalert/sweetalert.css">
+
+	<!-- css -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../public/style.css">
+	<link rel="stylesheet" type="text/css" href="../public/about.css">
+
+	<!-- Mobile device homescreen logo -->
+	<link rel="apple-touch-icon" href="../images/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="../images/favicon.ico"/>
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon"/>
+
+</head>
+
+<body>
+
+	<div class="main">
+
+		<h1>About</h1>
+
+		<div class="ui raised segment">
+			<h3>What's it do</h3>
+			<p class="toggle">As of Today provides a helpful way to track the statistics of a life after habitual addiction.</p>
+
+			<h3>Who's it for</h3>
+			<p class="toggle">As of Today is a great tool for anyone wanting to give up soda or cigarettes that needs an extra nudge. It's also great for people that have already quit that just want to see how far they've come.</p>
+
+			<h3>localStorage</h3>
+			<div class="toggle">
+				<p>I decided to use something called localStorage - meaning there's no database (your info is stored in your personal device only). The good news is you don't have to sign up for anything, give me your email, or create &amp; remember a password. But this also means that you will have to enter your info on any device you want to access this site on (for example, your phone and your laptop).</p>
+				<p>The most important info for your stats is the date you quit. I suggest that you fill out the settings page, take a screenshot, and email it to yourself (or just write the date down somewhere). If anything happens, you'll always know the date you quit.</p>
+			</div>
+
+			<h3>Troubleshooting</h3>
+			<ol class="toggle">
+				<li>don't use incognito mode</li>
+				<li>enable cookies</li>
+				<li>enable JavaScript</li>
+				<li><button class="ui big right labeled icon red button" id="clearLS">Clear localStorage<i class="large trash icon"></i></button></li>
+				<li><a href="https://www.linkedin.com/in/jake-tripp/" target="_blank">contact my LinkedIn</a></li>
+			</ol>
+
+			<h3>Why I made it</h3>
+			<div class="toggle">
+				<p>My mom was addicted to Diet Coke for most of her adult life. She tried multiple times to quit - all unsuccessful. She usually drank <em>six Diet Cokes a day</em>. Partly with the help of As of Today, she successfully quit on February 23, 2017. That's <span id="num"></span> Diet Cokes!</p>
+				<p>Now, she has lower cholesterol and blood pressure, healthier body weight and dental hygiene, more balanced emotional health, and less pain.</p>
+				<p>I want that for everyone.</p>
+			</div>
+
+			<h3>"What if I don't drink cans?"</h3>
+			<div class="toggle">
+				<p>I used cans as the metric because most people drink from cans. I also didn't want to overcomplicate the settings page.</p>
+				<p>If you prefer another container (or a combination of containers), set your approximate number of cans per day and cost per 12 pack using the form below.</p>
+
+				<form class="ui form">
+					<div class="two fields">
+						<div class="field">
+						    <label id="quantity">Total oz per day:</label>
+						    <input type="number" name="oz" placeholder="32">
+						</div>
+						
+						<div class="field">
+						    <label id="quantity">Total cost per day: ($)</label>
+						    <input type="number" name="cost" step="0.01" placeholder="1.49">
+						</div>
+					</div>
+
+					<button type="button" id="convert" class="ui big button" data-content="Stats set!" data-position="bottom center" data-variation="huge inverted">Set stats</button>
+				</form>
+			</div>
+
+			<h3>Save a shortcut</h3>
+			<div class="buttons toggle">
+				<a class="ui big blue button" href="https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/" target="_blank">Phones</a>
+				<a class="ui big blue button" href="https://askleo.com/how-do-i-set-a-custom-icon-for-a-desktop-url-shortcut/" target="_blank">Computers</a>
+			</div>
+	
+			<h3>"Only soda and cigarettes?"</h3>
+			<p class="toggle">I considered expanding this app to include other vices but I settled on just soda and cigarettes because I think they are quite habitual. For things like alcohol, candy, and coffee, I think varieties and amounts vary too much for most people for the stats to be meaningful and accurate. </p>
+
+			<h3>Info used</h3>
+			<ul class="toggle">
+				<li>40 gallons = 1 bathtub (they vary, I measured mine)</li>
+				<li><a href="http://recycleusainc.com/aluminium-cans/how-many-aluminum-cans-equal-1-pound/" target="_blank">31 cans = 1 lb aluminum</a></li>
+				<li><a href="http://www.cnn.com/2017/05/31/health/tobacco-environment-who-report/" target="_blank">300 cigarettes = 1 tree</a></li>
+				<li><a href="https://academic.oup.com/ntr/article/15/1/255/1112360/Determination-of-Nicotine-Absorption-from-Multiple" target="_blank">0.95 mg nicotine absorbed per cigarette</a></li>
+				<li><a href="https://www.iso.org/iso-8601-date-and-time-format.html" target="_blank">ISO 8601 time</a></li>
+				<li><a href="https://www.addiction.com/7215/70-best-quotes-for-addiction-recovery/" target="_blank">Quotes</a></li>
+				<li><a href="https://www.caffeineinformer.com/the-caffeine-database" target="_blank">Caffeine Informer (caffeine and sugar content)</a></li>
+			</ul>
+		
+			<h3 id="thanks">Acknowledgements</h3>
+			<p class="toggle">I'd like to thank my friends &amp; family for letting me test As of Today with them. I'd also like to thank the photographers whose photos I used: 
+
+				<a target="_blank" title="Ashley Knedler" href="https://unsplash.com/@aknedler">Ashley</a>, 
+				<a target="_blank" title="Braden Collum" href="https://unsplash.com/@bradencollum">Braden</a>, 
+				<a target="_blank" title="Aneta Ivanova" href="https://unsplash.com/@anetaivanova">Aneta</a>, 
+				<a target="_blank" title="Joshua Earle" href="https://unsplash.com/@joshuaearle">Joshua</a>, 
+				<a target="_blank" title="Todd Quackenbush" href="https://unsplash.com/@toddquackenbush">Todd</a>, and 
+				<a target="_blank" title="Jared Erondu" href="https://unsplash.com/@erondu">Jared</a>.
+
+			Finally, I'd like to give special thanks to <a href="http://lizzienguyen.com/" target="_blank" title="Lizzie Nguy&#7877;n">Lizzie Nguy&#7877;n</a> for doing the logo and helping with the name.</p>
+
+			<h3 id="donate">Donate</h3>
+			<p class="toggle">If you love this website, please share it! Especially if you or someone you know could benefit from it! And for some good karma, <a href="https://www.paypal.me/jmtripp/10usd" target="_blank">send a donation my way</a>. I'd thoroughly appreciate it. </p>
+		</div>	
+
+		<footer>
+			<a href="settings.html"><i class="big setting icon"></i></a>
+			
+			Made with <i class="heart icon"></i> by 
+			<a href="https://www.linkedin.com/in/jake-tripp/" target="_blank">Jake Tripp</a>
+
+			<a href="../index.html"><i class="big home icon"></i></a>
+		</footer>
+
+	</div>
+
+<script type="text/javascript" src="../js/about.js"></script>
+
+</body>
+</html>
