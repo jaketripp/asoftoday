@@ -34,7 +34,7 @@ footer {
 }
 
 h1 {
-	font-size: 4.5rem;
+	font-size: 3.8rem;
 	text-shadow: 1px 1px rgba(0,0,0,0.2);
 	text-align: center;
 	font-weight: 700;
@@ -85,6 +85,16 @@ p {
 
 	.main {
 		width: 80%;
+	}
+	h1 {
+		font-size: 4.0rem;
+	}	
+}
+
+@media (min-width: 450px) {
+
+	h1 {
+		font-size: 4.5rem;
 	}
 }
 

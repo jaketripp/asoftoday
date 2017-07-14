@@ -254,7 +254,7 @@ function sodas() {
 
     $('ul').append('<li id="days"></li><li id="dollars"></li><li id="gallons"></li><li id="bathtubs"></li><li id="caffeine"></li><li id="aluminum"></li>')
 
-    $('h1').html("I've given up <span id='num'>" + pluralize(totalSodasWithCommas,brand) + ". </span><br>I can give up <em>one more</em>.");
+    $('h1').html("As of today, I've given up <span id='num'>" + pluralize(totalSodasWithCommas,brand) + ". </span><br>I can give up <em>one more</em>.");
     $('#days').text(daysWithCommas + " day streak");
     $('#dollars').text("$" + dollarsWithCommas + " saved");
     $('#gallons').text(gallonsWithCommas + " gallons");
