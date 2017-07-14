@@ -1,16 +1,16 @@
-# Motivation Stats
+# As of Today
 #### Written in JavaScript, HTML, and CSS.
 #### Libaries: Semantic UI, jQuery, jQuery UI, Modernizr, Sweet Alert
 
-### [Check out Motivation Stats](http://www.motivationstats.com "Motivation Stats")   
+### [Check out As of Today](http://www.asoftoday.me "As of Today")   
 
 - - - - 
 
 ### What's it do:
-* Motivation Stats provides a helpful way to track the statistics of a life after soda and cigarettes. 
+* As of Today provides a helpful way to track the statistics of a life after soda and cigarettes. 
 
 ### Who's it for:
-* Motivation Stats is a great tool for anyone wanting to give up soda or cigarettes that needs an extra nudge. It's also great for people that have already quit that just want to see how far they've come. 
+* As of Today is a great tool for anyone wanting to give up soda or cigarettes that needs an extra nudge. It's also great for people that have already quit that just want to see how far they've come. 
 
 ### What stats does it show:
 | Sodas        | Cigarettes  | Both  	   |
@@ -29,7 +29,7 @@
 1. don't use incognito mode
 2. enable cookies
 3. enable JavaScript
-4. Clear localStorage (see about page)
+4. Clear localStorage [(see about page)](http://www.asoftoday.me/about "About | As of Today")   
 5. <a href="https://www.linkedin.com/in/jake-tripp/" target="_blank">message me on linkedin</a> 
 
 ### Why I made it:
@@ -49,11 +49,11 @@
 * <a href="https://www.caffeineinformer.com/the-caffeine-database" target="_blank">Caffeine Informer (caffeine and sugar content)</a>
 
 ### Acknowledgments
-I'd like to thank my friends &amp; family for letting me test Motivation Stats with them. I'd also like to thank the photographers whose photos I used: <a target="_blank" title="Ashley Knedler" href="https://unsplash.com/@aknedler">Ashley</a>, <a target="_blank" title="Braden Collum" href="https://unsplash.com/@bradencollum">Braden</a>, <a target="_blank" title="Aneta Ivanova" href="https://unsplash.com/@anetaivanova">Aneta</a>, <a target="_blank" title="Joshua Earle" href="https://unsplash.com/@joshuaearle">Joshua</a>, <a target="_blank" title="Todd Quackenbush" href="https://unsplash.com/@toddquackenbush">Todd</a>, and <a target="_blank" title="Jared Erondu" href="https://unsplash.com/@erondu">Jared</a>. Finally, I'd like to give special thanks to <a href="http://lizzienguyen.com/" target="_blank" title="Lizzie Nguy&#7877;n">Lizzie Nguy&#7877;n</a> for doing the logo.
+I'd like to thank my friends &amp; family for letting me test As of Today with them. I'd also like to thank the photographers whose photos I used: <a target="_blank" title="Ashley Knedler" href="https://unsplash.com/@aknedler">Ashley</a>, <a target="_blank" title="Braden Collum" href="https://unsplash.com/@bradencollum">Braden</a>, <a target="_blank" title="Aneta Ivanova" href="https://unsplash.com/@anetaivanova">Aneta</a>, <a target="_blank" title="Joshua Earle" href="https://unsplash.com/@joshuaearle">Joshua</a>, <a target="_blank" title="Todd Quackenbush" href="https://unsplash.com/@toddquackenbush">Todd</a>, and <a target="_blank" title="Jared Erondu" href="https://unsplash.com/@erondu">Jared</a>. Finally, I'd like to give special thanks to <a href="http://lizzienguyen.com/" target="_blank" title="Lizzie Nguy&#7877;n">Lizzie Nguy&#7877;n</a> for doing the logo.
 
 ### Share and Donate:
 * If you love this website, please share it! Especially if you or someone you know could benefit from it!
-* And for some good karma, [send a donation my way](https://www.paypal.com/us/home). I'd thoroughly appreciate it.
+* And for some good karma, [send a donation my way](https://www.paypal.me/jmtripp/10usd). I'd thoroughly appreciate it.
 
 - - - - 
 
@@ -61,7 +61,7 @@ I'd like to thank my friends &amp; family for letting me test Motivation Stats w
 
 Soda             |  Cigarettes
 :-------------------------:|:-------------------------:
-![September 2017](images/soda.jpg)  |  ![Pineapple info](images/cigarettes.jpg)
+![Stats for soda](images/soda.jpg)  |  ![Stats for cigarettes](images/cigarettes.jpg)
 
 - - - - 
 
